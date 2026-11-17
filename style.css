@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.objectif-box{
+    background-color: rgb(250, 97, 36); 
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+}
+
+header {
+    background-color: rgb(253, 72, 7);
+    color:rgb(5, 5, 5);
+    padding: 30px;
+    text-align: center;
+}
+
+header img {
+    display: flex;
+    justify-content: left;
+    height: 48px;
+
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 16px;
+}
+
+li input:checked + label {
+    text-decoration: line-through;
+    color: #f17f33;
+}
+
+li label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    background-color: #fbf9fc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+li:hover{
+    background-color: #f57d2d;
+}
+
+.form-tache{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.form-tache input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #faae8b;
+    border-radius: 8px;
+}
+
+
+.form-tache button{
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-tache button:hover{
+    background-color:#ddab7c;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+
+
